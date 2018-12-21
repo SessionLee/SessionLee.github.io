@@ -111,7 +111,7 @@
 <meta property="og:site_name" content="SessionLee">
 <meta property="og:description" content="前言突然很想找个地方记录和分享一下学习笔记和感悟，于是萌生了一个搭建个人博客的想法。 对比了CSDN和博客园等等现有的平台，觉得都不太适合。无意中找到了一个Github+Hexo的解决方案，觉得很适合，遂记录下来。 软件准备我个人的Windows开发机上是没有装Nodejs和Git的，好在Windows平台有现成的安装程序，很简单。 Nodejs选择了当前（2018年12月21日）最新版本的LTS">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-12-21T03:45:05.108Z">
+<meta property="og:updated_time" content="2018-12-21T03:46:54.881Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Github+Hexo搭建个人博客">
 <meta name="twitter:description" content="前言突然很想找个地方记录和分享一下学习笔记和感悟，于是萌生了一个搭建个人博客的想法。 对比了CSDN和博客园等等现有的平台，觉得都不太适合。无意中找到了一个Github+Hexo的解决方案，觉得很适合，遂记录下来。 软件准备我个人的Windows开发机上是没有装Nodejs和Git的，好在Windows平台有现成的安装程序，很简单。 Nodejs选择了当前（2018年12月21日）最新版本的LTS">
@@ -338,7 +338,7 @@
                 
               
 
-              <time title="创建时间：2018-12-21 11:41:34 / 修改时间：11:45:05" itemprop="dateCreated datePublished" datetime="2018-12-21T11:41:34+08:00">2018-12-21</time>
+              <time title="创建时间：2018-12-21 11:41:34 / 修改时间：11:46:54" itemprop="dateCreated datePublished" datetime="2018-12-21T11:41:34+08:00">2018-12-21</time>
             
 
             
@@ -402,7 +402,7 @@
 <p>考虑到要使用Github，于是另外安装了Github Desktop。下载地址：<a href="https://desktop.github.com/" target="_blank" rel="noopener">https://desktop.github.com/</a></p>
 <p>配置Git</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name `Github用户名`</span><br><span class="line">git config --global user.email `Github邮箱`</span><br><span class="line">ssh-keygen -t rsa -C `Github邮箱`</span><br></pre></td></tr></table></figure>
-<p>在<a href="https://github.com/settings/keys中创建一个新的SSH" target="_blank" rel="noopener">https://github.com/settings/keys中创建一个新的SSH</a> Key，并将刚刚生成的id_rsa.pub文件内容复制进去。</p>
+<p>在<a href="https://github.com/settings/keys" target="_blank" rel="noopener">https://github.com/settings/keys</a> 中创建一个新的SSH Key，并将刚刚生成的id_rsa.pub文件内容复制进去。</p>
 <p>如果使用Github Desktop自带的Git程序，则不需要进行上述两步。</p>
 <h3 id="创建个人仓库"><a href="#创建个人仓库" class="headerlink" title="创建个人仓库"></a>创建个人仓库</h3><p>在github上创建一个新的仓库，名字为<code>用户名</code>.github.io。如果用Github Desktop的话，需要额外点击Publish来发布到Github上。</p>
 <h3 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h3><p>在命令行中运行</p>
