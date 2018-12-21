@@ -104,20 +104,24 @@
 
 
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="SessionLee">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="前言突然很想找个地方记录和分享一下学习笔记和感悟，于是萌生了一个搭建个人博客的想法。 对比了CSDN和博客园等等现有的平台，觉得都不太适合。无意中找到了一个Github+Hexo的解决方案，觉得很适合，遂记录下来。 软件准备我个人的Windows开发机上是没有装Nodejs和Git的，好在Windows平台有现成的安装程序，很简单。 Nodejs选择了当前（2018年12月21日）最新版本的LTS">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Github+Hexo搭建个人博客">
+<meta property="og:url" content="http://yoursite.com/2018/12/21/Github-Hexo搭建个人博客/index.html">
 <meta property="og:site_name" content="SessionLee">
+<meta property="og:description" content="前言突然很想找个地方记录和分享一下学习笔记和感悟，于是萌生了一个搭建个人博客的想法。 对比了CSDN和博客园等等现有的平台，觉得都不太适合。无意中找到了一个Github+Hexo的解决方案，觉得很适合，遂记录下来。 软件准备我个人的Windows开发机上是没有装Nodejs和Git的，好在Windows平台有现成的安装程序，很简单。 Nodejs选择了当前（2018年12月21日）最新版本的LTS">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2018-12-21T03:45:05.108Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="SessionLee">
+<meta name="twitter:title" content="Github+Hexo搭建个人博客">
+<meta name="twitter:description" content="前言突然很想找个地方记录和分享一下学习笔记和感悟，于是萌生了一个搭建个人博客的想法。 对比了CSDN和博客园等等现有的平台，觉得都不太适合。无意中找到了一个Github+Hexo的解决方案，觉得很适合，遂记录下来。 软件准备我个人的Windows开发机上是没有装Nodejs和Git的，好在Windows平台有现成的安装程序，很简单。 Nodejs选择了当前（2018年12月21日）最新版本的LTS">
 
 
 
 
 
 
-  <link rel="canonical" href="http://yoursite.com/">
+  <link rel="canonical" href="http://yoursite.com/2018/12/21/Github-Hexo搭建个人博客/">
 
 
 
@@ -127,7 +131,7 @@
   };
 </script>
 
-  <title>SessionLee</title>
+  <title>Github+Hexo搭建个人博客 | SessionLee</title>
   
 
 
@@ -175,8 +179,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
@@ -213,7 +216,7 @@
         
         
           
-          <li class="menu-item menu-item-home menu-item-active">
+          <li class="menu-item menu-item-home">
 
     
     
@@ -275,9 +278,9 @@
           
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -309,10 +312,8 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2018/12/21/Github-Hexo搭建个人博客/" class="post-title-link" itemprop="http://yoursite.com/index.html">Github+Hexo搭建个人博客</a>
+          <h1 class="post-title" itemprop="name headline">Github+Hexo搭建个人博客
+
               
             
           </h1>
@@ -393,9 +394,7 @@
       
 
       
-        
-          
-            <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>突然很想找个地方记录和分享一下学习笔记和感悟，于是萌生了一个搭建个人博客的想法。</p>
+        <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>突然很想找个地方记录和分享一下学习笔记和感悟，于是萌生了一个搭建个人博客的想法。</p>
 <p>对比了CSDN和博客园等等现有的平台，觉得都不太适合。无意中找到了一个Github+Hexo的解决方案，觉得很适合，遂记录下来。</p>
 <h3 id="软件准备"><a href="#软件准备" class="headerlink" title="软件准备"></a>软件准备</h3><p>我个人的Windows开发机上是没有装Nodejs和Git的，好在Windows平台有现成的安装程序，很简单。</p>
 <p>Nodejs选择了当前（2018年12月21日）最新版本的LTS 10.14.2，直接在<a href="https://nodejs.org/en/" target="_blank" rel="noopener">官网</a> 下载就可以</p>
@@ -424,8 +423,6 @@
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new post `文章名`</span><br></pre></td></tr></table></figure>
 <p>写好文章之后，运行以下命令生成以及部署到Github上。</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d -g</span><br></pre></td></tr></table></figure>
-          
-        
       
     </div>
 
@@ -448,12 +445,12 @@
       
 
       
+      
+      
 
       
 
       
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -463,14 +460,15 @@
   </article>
 
 
-    
-  </section>
-
-  
+  </div>
 
 
           </div>
           
+
+  
+
+
 
         </div>
         
@@ -491,8 +489,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
@@ -549,6 +556,22 @@
         </div>
       </div>
 
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#软件准备"><span class="nav-number">2.</span> <span class="nav-text">软件准备</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#创建个人仓库"><span class="nav-number">3.</span> <span class="nav-text">创建个人仓库</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装Hexo"><span class="nav-number">4.</span> <span class="nav-text">安装Hexo</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装NexT主题"><span class="nav-number">5.</span> <span class="nav-text">安装NexT主题</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#绑定到Github仓库"><span class="nav-number">6.</span> <span class="nav-text">绑定到Github仓库</span></a></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
       
 
       
@@ -684,6 +707,10 @@
 
 
   
+  <script src="/js/src/scrollspy.js?v=6.6.0"></script>
+<script src="/js/src/post-details.js?v=6.6.0"></script>
+
+
 
   
 
